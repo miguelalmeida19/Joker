@@ -24,11 +24,12 @@ def joker():
     url = 'https://arquivo.pt/textsearch?q=' + word + "&maxItems=1&prettyPrint=true&from=20190101000000&siteSearch=http://www.publico.pt"
     print(url)
     x = requests.get(url)
+    list = x.json()["response_items"]
+    res = list[0]['title']
 
-    print(x.json()["response_items"])
+    res = res.split(" | ")[0]
 
-
-    return render_template('joker.html', pergunta="Mas que cheiro aqui?",
+    return render_template('joker.html', pergunta=res,
                            opcao1="Espumante",
                            opcao2="Sumo de pepino",
                            opcao3="Café curto",
