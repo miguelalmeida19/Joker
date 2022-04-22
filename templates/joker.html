@@ -1,0 +1,292 @@
+<body>
+<div class="bg">
+</div>
+<div class="div">
+    <div class="pergunta">
+        <div class="builder-columns div-3">
+            <div class="builder-column column">
+                <div class="box">
+                    <div class="div-4">1</div>
+                    <div class="div-5"></div>
+                    <div class="div-6">12</div>
+                </div>
+            </div>
+            <div class="builder-column column-2">
+                <div class="na-cidade-do-porto-o-que-se-p">
+                    {{pergunta}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="opcoes">
+        <div class="row">
+            <div class="builder-columns div-9">
+                <div class="opcao">
+                    <div class="opcaoconfig">{{opcao1}}</div>
+                </div>
+                <div class="opcao">
+                    <div class="opcaoconfig">{{opcao2}}</div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="builder-columns div-13">
+                <div class="opcao">
+                    <div class="opcaoconfig">{{opcao3}}</div>
+                </div>
+                <div class="opcao">
+                    <div class="opcaoconfig">{{opcao4}}</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+<style>
+    @font-face {
+        font-family: "IBM Plex Sans Thai Looped", sans-serif;
+        src: url('https://fonts.google.com/specimen/IBM+Plex+Sans+Thai+Looped?query=IBM+Plex+Sans+Thai');
+        font-weight: bold;
+    }
+
+    body {
+        background-color: #5E78BD;
+    }
+
+    .bg {
+        position: fixed;
+        top: -50%;
+        left: -50%;
+        right: -50%;
+        bottom: -50%;
+        width: 200%;
+        height: 200vh;
+        background: transparent url('http://assets.iceable.com/img/noise-transparent.png') repeat 0 0;
+        background-repeat: repeat;
+        animation: bg-animation .2s infinite;
+        opacity: .9;
+        visibility: visible;
+    }
+
+    @keyframes bg-animation {
+        0% {
+            transform: translate(0, 0)
+        }
+        10% {
+            transform: translate(-5%, -5%)
+        }
+        20% {
+            transform: translate(-10%, 5%)
+        }
+        30% {
+            transform: translate(5%, -10%)
+        }
+        40% {
+            transform: translate(-5%, 15%)
+        }
+        50% {
+            transform: translate(-10%, 5%)
+        }
+        60% {
+            transform: translate(15%, 0)
+        }
+        70% {
+            transform: translate(0, 10%)
+        }
+        80% {
+            transform: translate(-15%, 0)
+        }
+        90% {
+            transform: translate(10%, 5%)
+        }
+        100% {
+            transform: translate(5%, 0)
+        }
+    }
+
+    .div {
+        position: relative;
+        top: 10%;
+        margin: -10px auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        max-width: 1000px;
+        border-radius: 74px;
+        padding-top: 55px;
+        padding-bottom: 55px;
+        padding-right: 55px;
+        padding-left: 55px;
+        background-color: rgba(77, 98, 208, 1);
+    }
+
+    .pergunta {
+        display: flex;
+        flex-direction: column;
+        max-width: 1308px;
+        padding-top: 33px;
+        padding-bottom: 33px;
+        padding-right: 33px;
+        padding-left: 33px;
+    }
+
+    .div-3 {
+        display: flex;
+    }
+
+    @media (max-width: 999px) {
+        .div-3 {
+            flex-direction: column;
+            align-items: stretch;
+        }
+    }
+
+    .column {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: calc(13.29% - 10px);
+        margin-left: 0px;
+    }
+
+    @media (max-width: 999px) {
+        .column {
+            width: 75%;
+        }
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        max-width: 136px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 19px;
+        background-color: rgba(100, 122, 234, 1);
+        width: 117.0781px;
+    }
+
+    .div-4 {
+        max-width: 38px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 41px;
+        text-align: left;
+        font-family: "IBM Plex Sans Thai Looped", sans-serif;
+        font-weight: bold;
+    }
+
+    .div-5 {
+        display: flex;
+        max-width: 107px;
+        height: 0px;
+        width: 90px;
+        border-color: rgba(138, 157, 255, 1);
+        border-width: 2px;
+        border-style: solid;
+    }
+
+    .div-6 {
+        max-width: 76px;
+        color: rgba(124, 144, 246, 1);
+        font-size: 36px;
+        text-align: left;
+        margin-top: -1px;
+        font-family: "IBM Plex Sans Thai Looped", sans-serif;
+        font-weight: bold;
+    }
+
+    .column-2 {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: calc(97.36% - 5px);
+        margin-left: 20px;
+    }
+
+    @media (max-width: 999px) {
+        .column-2 {
+            width: 75%;
+        }
+    }
+
+    .na-cidade-do-porto-o-que-se-p {
+        max-width: 996px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 30px;
+        margin: 30px;
+        text-align: center;
+        font-family: "IBM Plex Sans Thai Looped", sans-serif;
+        font-weight: bold;
+    }
+
+    .opcoes {
+        display: flex;
+        flex-direction: column;
+        max-width: 996px;
+        justify-content: center;
+        margin-top: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .row {
+        display: flex;
+        flex-direction: column;
+        max-width: 976px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    .div-9 {
+        display: flex;
+    }
+
+    @media (max-width: 999px) {
+        .div-9 {
+            flex-direction: column;
+            align-items: stretch;
+        }
+    }
+
+    .opcao {
+        display: compact;
+        flex-direction: column;
+        width: 250px;
+    }
+
+    .opcaoconfig:hover {
+        cursor: pointer;
+        background-color: #546FFF;
+    }
+
+    .opcaoconfig {
+        display: flex;
+        max-width: 400px;
+        justify-content: center;
+        align-items: flex-start;
+        border-radius: 19px;
+        padding-top: 22px;
+        padding-bottom: 22px;
+        padding-right: 22px;
+        padding-left: 22px;
+        background-color: rgba(100, 122, 234, 1);
+        margin-top: auto;
+        margin-bottom: auto;
+        width: 200px;
+        color: rgba(255, 255, 255, 1);
+        font-size: 20px;
+        text-align: left;
+        font-family: "IBM Plex Sans Thai Looped", sans-serif;
+        font-weight: bold;
+    }
+
+    .div-13 {
+        display: flex;
+    }
+</style>

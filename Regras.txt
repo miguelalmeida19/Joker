@@ -1,0 +1,42 @@
+Joker regras:
+----------------------------------------------
+Cada pergunta tem 40 segundos de tempo
+----------------------------------------------
+Dinheiro:
+0€
+250€
+500€
+1000€
+2500€
+5000€
+10000€
+25000€
+75000€
+----------------------------------------------
+9 Jokers inicialmente
+Se errar perde 3 Jokers
+----------------------------------------------
+1-4 perguntas normais
+----------------------------------------------
+5ª pergunta -> escolher tema da pergunta
+----------------------------------------------
+Dps da 5 ronda -> Ronda Bónus:
+- cada pergunta tem 2 opções apenas
+- para formar um joker é necessário 5 respostas certas
+- máximo 3 jokers
+---------------------------------------------------------------------------------------------------------------------------------------------------------
+Quando perde e se tem menos de 3 jokers, os jokers que restam são eliminados e o que faltar é descido no patamar do dinheiro, sempre com a regra de 3.
+
+Ex: 1 joker e 5000€
+Erra -> perde 1 joker e desce 2 patamares no dinheiro passado a ficar com 1000€
+------------------------------------------------------------------------------------------
+10ª pergunta -> escolher tema da pergunta (n pode ser o mesmo tema da 5ª)
+------------------------------------------------------------------------------------------
+Dps da 10 ronda -> Ronda Bónus:
+- cada pergunta tem 2 opções apenas
+- para formar um joker é necessário 5 respostas certas
+- máximo 3 jokers
+------------------------------------------------------------------------------------------
+Com os jokers que se ganham na ronda bonus, o patamar mínimo do dinheiro sobe:
+
+Ex: 50€ + 1 joker -> 100€
