@@ -9,7 +9,7 @@ matching = {
                 "na"],
 
     'ONDE?': ["debaixo", "em cima", "ali", "aqui",
-              "aí", "além", "abaixo", "aquém", "lá",
+              "além", "abaixo", "aquém", "lá",
               "fora", "dentro", "acima", "diante",
               "atrás", "longe", "perto", "defronte",
               "algures", "cá", "nenhures", "adentro",
@@ -82,5 +82,5 @@ def buildQuestion(phrase):
 
     for r in results.keys():
         print(r + ": " + results[r])
-        
+
 main()
